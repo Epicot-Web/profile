@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;400;600&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+  }
+
+.card {
+  background: white;
+  border: 1px solid lightgrey;   /* Subtle border for the cards */
+  border-radius: 8px;            /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+  padding: 20px;                 /* Padding inside the cards */
+  margin-bottom: 20px;           /* Space between cards */
+}
+
+.profile-card h1 {
+  text-align: center;            /* Center the name */
+  font-size: 2em;                 /* Larger text for the name */
+  margin-bottom: 10px;            /* Space between name and job title */
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #2d3e50;
+    margin-bottom: 10px;
+}
+
+.profile-card h2 {
+  text-align: center;            /* Center the job title */
+  font-size: 1.2em;               /* Slightly smaller job title */
+  color: #66d3b2;                    /* Light grey for job title */
+  margin-bottom: 20px;            /* Space between job title and description */
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: #66d3b2;
+    font-weight: 300;
+}
+
+.profile-image {
+  width: 150px;                  /* Fixed width for the profile image */
+  height: 150px;                 /* Fixed height for the profile image */
+  border-radius: 50%;            /* Circular image */
+  object-fit: cover;             /* Make sure the image covers the circle properly */
+  margin-bottom: 20px;           /* Space between the image and text */
+  display: block;                /* Block-level for easy centering */
+  margin-left: auto;
+  margin-right: auto;            /* Center the image */
+}
+
+p.description {
+    font-size: 1.1em;
+    color: #555;
+    max-width: 800px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.profile-card .description {
+  text-align: center;            /* Center the description */
+  font-size: 1.1em;               /* Slightly larger font for description */
+  margin-bottom: 20px;            /* Space between description and button */
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.follow-me {
+  margin-top: 30px; /* Add some space above the "Follow Me" section */
+  text-align: left; /* Align text to the left */
+}
+
+/* Style for the "Follow Me" heading */
+.follow-me h3 {
+  font-size: 1.5em;   /* Adjust font size for "Follow Me" */
+  margin-bottom: 10px; /* Add space between heading and social icons */
+}
+
+.social-links-card h3 {
+  font-size: 1.5em;               /* Smaller font for "Follow Me" */
+  margin-bottom: 10px;            /* Space between the heading and list */
+  text-align: center;             /* Center the heading */
+}
+
+/* Style for the social media icons list */
+ul.social-links {
+  list-style: none;  /* Remove bullet points */
+  padding: 0;        /* Remove default padding */
+  margin: 0;         /* Remove margin */
+}
+
+ul.social-links li {
+  margin: 10px 0;    /* Add space between each icon */
+}
+
+ul.social-links a {
+  color: #333;       /* Default color for the icons */
+  font-size: 1.5em;  /* Set the size of the icons to make them smaller */
+  text-decoration: none;  /* Remove the default underline */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+ul.social-links a:hover {
+  color: #3498db;    /* Change icon color to blue on hover */
+}
+
+ul.social-links i {
+  font-size: 1.5em;  /* Icon size */
+  transition: color 0.3s ease; /* Smooth color transition for the icon */
+}
+
+ul.social-links a:hover i {
+  color: #3498db;    /* Change icon color to blue on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    color: #7f8c8d;
+}
